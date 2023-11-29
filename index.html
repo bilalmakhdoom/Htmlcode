@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+    body {
+        font-family: 'Anton', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(image/bg.jpg.jpg);
+        background-color: rgb(34, 33, 33);
+        color: white;
+        background-repeat: no-repeat;
+
+    }
+
+    .left {
+        /* border: 2px solid rgb(190, 0, 0); */
+        display: inline-block;
+        position: absolute;
+        left: 15px;
+        top: 0px;
+    }
+
+    .left img {
+        width: 120px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 0px;
+        font-size: 20px;
+        margin-top: -32px;
+        white-space: nowrap;
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 15px auto;
+        /* border: 2px solid green; */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+        margin-top: 3px;
+        /* border: 2px solid blue; */
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(123, 122, 122);
+    }
+
+    .btn {
+        font-family: 'Anton', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        border: 2px solid rgb(73, 73, 73);
+        border-radius: 9px;
+        margin: 0px 8px;
+        padding: 4px 14px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        background-color: rgb(74, 73, 73);
+    }
+
+    .container {
+        /* border: 2px solid rgb(255, 255, 255); */
+        /* border-radius: 20px; */
+        margin-top: 196px;
+        margin-left: 40px;
+        padding: 20px;
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .formgroup input {
+        font-family: 'Anton', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    .formgroup input:hover {
+        background-color: rgb(207, 207, 207);
+
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 350px;
+        margin: 3px auto;
+    }
+
+    .container2 {
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 25px;
+        top: 260px;
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+        height: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container2 h1 {
+        display: inline-block;
+        font-size: 45px;
+        margin: -0px;
+
+    }
+
+    .strong {
+        color: rgb(191, 80, 0);
+
+    }
+
+    .hard {
+        font-size: 45px;
+        margin: -10px;
+    }
+
+    .container2 h3 {
+        text-decoration: underline;
+    }
+
+    .container2 .btn {
+        width: 150px;
+        margin: 20px auto;
+        padding: 14px;
+        background-color: rgb(191, 80, 0);
+
+    }
+
+    .container2 .btn:hover {
+        background-color: rgb(220, 93, 2);
+    }
+
+    .container3 {
+        /* border: 2px solid red; */
+        /* background-color: black; */
+        float: left;
+        height: 1000px;
+        margin: 282px auto;
+        padding: 10px;
+        text-align: center;
+        color: rgb(191, 80, 0);
+    }
+
+    .container3 h1 {
+        color: white;
+        margin: -20px;
+    }
+
+    .container3 .btn {
+
+        background-color: #313131;
+        border-radius: 500px;
+        margin: 30px auto;
+        margin-inline: 50px;
+        border: none;
+    }
+
+    .container3 .btn:hover {
+        background-color: rgb(191, 80, 0);
+        ;
+    }
+
+    .para {
+        /* border: 2px solid green; */
+        color: white;
+        height: auto;
+        width: 250px;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: -38px;
+        display: inline-block;
+    }
+
+    .container4 h3 {
+        color: white;
+        margin-top: -17px;
+        padding: 2px;
+        margin-left: 2px;
+    }
+
+    #image1 {
+        padding: 2px;
+        background-color: black;
+        display: inline-block;
+        text-align: left;
+
+    }
+
+    #image2 {
+        padding: 2px;
+        background-color: black;
+        text-align: left;
+        display: inline-block;
+    }
+
+    #image3 {
+        padding: 2px;
+        background-color: black;
+        text-align: left;
+        display: inline-block;
+
+    }
+
+    .threepics {
+        margin: 2px;
+        margin-top: 25px;
+        display: inline-block;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="image/logo.png.png" alt="">
+            <div>Bilal fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join The Best Gym Of Malir Now </h2>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" Name placeholder="enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" Name placeholder="enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" Name placeholder="enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" Name placeholder="enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        <div class="container2">
+            <h3>SHAPE YOUR BODY</h3>
+            <h1>BE</h1>
+            <h1 class="strong">STRONG</h1>
+            <h2 class="hard">TRANING HARD</h2>
+            <button class="btn">GET INFO</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container3">
+            <h4>WHY CHOSE US?</h4>
+            <h1>PUSH YOUR LIMITS FORWARD</h1>
+            <button class="btn">Modern equipment</button>
+            <button class="btn">Healthy nutrition plan</button>
+            <button class="btn">Professional training plan</button>
+            <button class="btn">Unique to your needs</button>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="container4">
+                <h2>OUR CLASSES</h2>
+                <h1>WHAT WE CAN OFFER</h1>
+                <div class="threepics">
+                    <div id="image1">
+                        <img src="image/id1.jpg" alt="">
+                        <h5>STRENGTH</h5>
+                        <h3>WEIGHT LIFTING</h3>
+                    </div>
+                    <div id="image2">
+                        <img src="image/id2.jpg" alt="">
+                        <h5>CARDIO</h5>
+                        <h3>INDOOR CYCLING</h3>
+                    </div>
+                    <div id="image3">
+                        <img src="image/id3.jpg" alt="">
+                        <h5>STRENGTH</h5>
+                        <h3>KETTLEBELL POWER</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
